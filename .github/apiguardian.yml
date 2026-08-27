@@ -3,7 +3,7 @@ updates:
   - vendor: stripe
     directory: /
     schedule:
-      interval: weekly
+      interval: daily
     labels:
       - api-guardian
       - dependencies
