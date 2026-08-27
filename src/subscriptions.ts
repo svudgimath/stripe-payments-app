@@ -5,7 +5,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
 });
 
 export async function createCustomer(email: string, name: string, cardToken: string) {
-  const customer = await stripe.customers.create({ email, name, source: cardToken });
+  const customer = await stripe.customers.create({ email, name, payment_method: cardToken });
   return customer;
 }
 
