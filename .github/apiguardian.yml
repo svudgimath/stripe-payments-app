@@ -1,0 +1,12 @@
+version: 1
+updates:
+  - vendor: stripe
+    directory: /
+    schedule:
+      interval: weekly
+    labels:
+      - api-guardian
+      - dependencies
+    reviewers: []
+    assignees: []
+    auto-merge: false
