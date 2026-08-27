@@ -1,0 +1,7 @@
+{
+  "name": "stripe-payments-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": { "stripe": "^11.0.0" }
+}
